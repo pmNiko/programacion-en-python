@@ -1,0 +1,73 @@
+ """ Tipos de datos en Python """
+
+ Fuente: https://j2logo.com/python/tutorial/tipos-de-datos-basicos-de-python/
+
+ ¿Qué tipos de datos trae consigo Python?
+
+  En Python podemos encontrar distintos tipos de datos con diferentes características 
+  y clasificaciones.
+
+  Los tipos de datos básicos de Python son los booleanos, 
+  los numéricos (enteros, punto flotante y complejos) y 
+  las cadenas de caracteres. primitivos
+
+  Python también define otros tipos de datos, entre los que se encuentran:
+
+    Secuencias: Los tipos list, tuple y range
+    Mapas: El tipo dict
+    Conjuntos: El tipo set
+
+
+
+  """ ######   Listas   ###### """
+
+  fuente: https://j2logo.com/python/tutorial/tipo-list-python/
+  
+  Las listas en python son un tipo de contenedor, que se utilizan para almacenar 
+  conjuntos de elementos relacionados del mismo tipo o mixtos. 
+  Estas tienen la particularidad de que son mutables, es decir que una vez 
+  creadas su contenido se puede modificar.
+
+    Creación   ->  [ <content 1> , <content 2> , ... ]
+    Creación   ->  list( <content 1> , <content 2> , ... )
+
+  Maneras de acceder a sus elementos:
+
+    a travez de sus indices -> 
+
+        letras = ['A', 'B', 'G', 'K']
+                   0    1    2    3
+
+        letras[2] 
+        >>>> G
+
+  Podemos añadir un elemento con append() o varios de una vez con extend(), 
+  asi como tambien añadir un elemento en una posición concreta:
+    -> insert(2, 'L')    en la posición 2 insertará la letra L
+
+  Modificar elementos:
+      letras[3] = 'P' 
+
+  Eliminar elementos:
+
+    >>> letras = ['a', 'b', 'k', 'a', 'v']
+    # Elimina la primera ocurrencia del carácter a
+    >>> letras.remove('a')
+    >>> letras
+    ['b', 'k', 'a', 'v']
+    # Obtiene y elimina el último elemento
+    >>> letras.pop()
+    'v'
+    >>> letras
+    ['b', 'k', 'a']
+
+
+
+  """ ####### Git  ######## """
+
+  fuente: https://oswaldo-martinez.gitbook.io/entendiendo-git/
+  fuente: https://medium.com/opendev-blog/the-three-stages-of-git-16565bfa67e5
+
+  instalación: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+
+  instalador: http://git-scm.com/download/win
