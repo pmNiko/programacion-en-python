@@ -69,4 +69,53 @@ Verificamos el estado nuevamente: $ git status
 
   Nos advierte que tenemos archivos sin seguimiento
 
+Por defecto git crea la rama master. Demosle seguimiento a los archivos modificados
+y pasemoslos al staging area.
 
+    % git add .
+
+    $ git status    // sin advertencias esta vez
+
+En este punto podríamos revertir esos cambios y volver los archivos al working Directory
+
+  $ git reset . 
+
+ó gernerar un commit 
+
+  $ git commit -m 'Mi first commit'
+
+------------------------------------------------------------------------------------------
+
+                          Trabajando con las ramas en git 
+
+
+
+                              _ _ _ _ _  beta _ _ _ _ 
+                             /                        \  merge
+          _ _ _ _ _ _ _ _ _ /_ _ _ _ _ _ _ master _ _ _\_ _ _ _ _ _ _ 
+
+
+  Como anticipabamos git crea la rama master, pero nosotros podríamos crear una segunda rama 
+para continuar con una parte de nuestro proyecto. Esto dejaía sin afectar la rama mastrer. 
+  De esta manera podríamos trabajar en la rama master solo con los archivos que estan listos 
+para ser subidos a GitHub, ese es nuestro código madre. 
+
+  Para ver las ramas actuales basta con escribir: 
+    $ git branch 
+
+    * master
+
+  Probemos crear una nueva rama:
+    $ git branch beta 
+
+      beta
+    * master
+
+  Nos ha creado una copia exacta de la rama master, es este punto nos dice que continuamos en master.
+  Podemos borrarla con 
+    $ git branch -d beta 
+  
+  ó podemos switchear a la nueva rama:
+
+      $ git checkout beta 
+      Switched to branch 'beta'
