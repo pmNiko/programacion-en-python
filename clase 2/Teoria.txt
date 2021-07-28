@@ -1,0 +1,72 @@
+"""
+    Git && GitHub
+                  """
+
+
+Git es un versionador de código, el cual sirve como sistema de control.
+  -> Registra los cambios del proyecto en la linea del tiempo.
+  -> Permite:
+      1. Revertir a un estado anterior
+      2. Comparar cambios
+      3. Determinar quién realizo un determinado cambio
+
+  
+  Areas en Git 
+
+
+  --------------------         --------------------          ----------------------------
+   Working Directory               Staging Area                .git Directory (repository)
+          |                             |                                   |
+          | -------------------------->>|                                   |
+          |      git add .              |                                   |
+          |                             |                                   |
+          |<<---------------------------|                                   |
+          |         git reset .         |                                   |
+          |                             |                                   |
+          | -------------------------->>|                                   |
+          |      git add .              |                                   |
+          |                             | -------------------------------->>|
+          |                             |  git commit -m 'First commit'     |
+
+
+Recordemos:
+
+  instalación: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+
+  instalador: http://git-scm.com/download/win
+
+Una vez instalado verificamos la versión:   git --version
+
+Configuremos las credenciales: 
+
+    git config --global user.name "Mi usuario de GitHub"
+    git config --global user.email "email@gmail.com"
+
+Corroboremos las credenciales:
+
+  git config --list
+
+
+Creamos una carpeta con $ mkdir mi_repositorio_en_git
+
+Ahora habramos el proyecto en vscode
+
+Una vez hechas las configuraciones podemos iniciar nuestro repositorio local de Git:  $ git init
+
+Verificamos el estado de nuestro repositorio: $ git status
+
+Creamos un archivo index.html y dentro colocamos la estructura de la página. 
+
+Podemos servir la página con python 
+    $ py -m http.server 9000 
+
+Ahora podemos acceder a ella por el navegador o desde la terminal 
+    $ curl -v [sitio al que queremos acceder] 
+
+
+Verificamos el estado nuevamente: $ git status
+  Untracked files: .....
+
+  Nos advierte que tenemos archivos sin seguimiento
+
+
