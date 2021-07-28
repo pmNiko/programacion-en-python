@@ -122,3 +122,39 @@ para ser subidos a GitHub, ese es nuestro código madre.
 
   Realicemos un cambio en nuestro archivo y verifiquemos el status. 
   Ahora comitiemos y volvamos a la rama master. 
+
+  Por ultimos vemos que no tenemos el cambio realizado en beta vamos a traer esos cambios.
+      $ git merge beta 
+
+      esto nos informa la cantidad de lineas modificadas en el archivo. 
+
+  Aca ya podemos ver el log de commit con git log.
+
+  Podriamos volver en la linea del tiempo 
+
+      $ git reset --hard [hash commit]
+
+  
+  Bien ahora vamos a salir de la carpeta y vamos a clonar el repositorio del curso. 
+
+  $ git clone https://github.com/pmNiko/programacion-en-python.git
+
+  Se nos descarga la carpeta del repo. 
+
+  Bien ingresamos al proyecto inicializamos git y agregamos la rama remota para poder actualizar cambios. 
+
+    $ git remote -v 
+    $ git remote add origin https://github.com/pmNiko/programacion-en-python.git
+    $ git remote -v 
+
+  Para verificar cambios en el repositorio remoto 
+
+    $ git fetch 
+
+  Luego traemos los cambios: 
+
+    $ git pull 
+
+  creamos una rama con nuestro feature y nos movemos a ella para poder seguir trabajando. 
+
+  
