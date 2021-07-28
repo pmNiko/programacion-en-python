@@ -119,3 +119,6 @@ para ser subidos a GitHub, ese es nuestro código madre.
 
       $ git checkout beta 
       Switched to branch 'beta'
+
+  Realicemos un cambio en nuestro archivo y verifiquemos el status. 
+  Ahora comitiemos y volvamos a la rama master. 
