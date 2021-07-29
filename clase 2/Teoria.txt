@@ -34,6 +34,10 @@ Recordemos:
   instalación: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
 
   instalador: http://git-scm.com/download/win
+  
+  clave ssh: https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+  clave ssh: https://docs.github.com/es/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  
 
 Una vez instalado verificamos la versión:   git --version
 
