@@ -76,3 +76,42 @@ falso = False
 # ### imprimir el tipo de dato #####
 # utilizamos la funcion type() dentro de un print()
 # print( type(verdadero) )
+
+""" 
+  Input 
+"""
+
+# Como capturamos los datos ingresados por el usuario
+# utilizamos la función input()
+# A tener en cuenta el tipo de dato que captura input() será string
+
+# ejemplo:
+nombre = input("Ingrese su nombre: ")
+print(nombre)
+print(type(nombre))
+# mi_lista = [nombre]
+# print(mi_lista)
+# print(type(mi_lista))
+
+# ejemplo 2:
+# edad = input("Ingrese su edad: ")
+# print(edad)
+# print(type(edad))
+
+# ejemplo 2:
+# numero = input("Ingrese su numero: ")
+# print(numero)
+# print(type(numero))
+
+# obtendriamos un error
+# suma = numero + 2
+# print(suma)
+
+# Se debe castear-convertir el tipo de dato
+# numero_convertido = int(numero)
+# suma = numero_convertido + 2
+# print(type(numero_convertido))
+# print(suma)
+
+# Existen similares para float y string
+# float()  str()

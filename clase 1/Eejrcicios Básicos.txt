@@ -1,0 +1,28 @@
+Ejercicio 1
+
+  Escribir un programa que solicite:
+    - nombre
+    - apellido
+    - edad 
+    - numero de telefono
+    - email
+
+  Mostrarlos por consola. 
+
+
+Ejercicio 2:
+
+  Escribir un programa que solicite tres numeros y muestre por consola el promedio.
+
+
+Ejercicio 3: 
+
+  - Crear un programa que le pida ingresar 4 colores. 
+  - Mostrarlos por consola.
+  - Agregarle un color desde el programa, mostrarle al usuario el nuevo color agregado. 
+  - imprimir la cantidad de colores. 
+  - Pedirle al usuario que ingrese un nuevo color e insertarlo en la posición 1. Imprimir el    listado de colores.
+  - Mostrale por consola al usuario el color que se encuentra en la posicion 3.
+  - Eliminar el ultimo color de la lista.
+  - Pedirle al usuario que ingrese un color para ver si existe en la lista, imprimir por consola True o False. 
+  - Limpiar la lista e imprimirla por consola.
