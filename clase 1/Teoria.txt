@@ -65,7 +65,7 @@
 """ ######   Tuplas   ###### """
 fuente: https://j2logo.com/python/tutorial/tipo-tuple-python/
 
-Las tuplas son un tipo de elemento secuencial al igual que 
+Las tuplas son un tipo de elemento secuencial similar a 
 las list con la diferencia que son objetos inmutables. Se deben
 utilizar cuando se quiere tener una coleccion que no pueda ser modificada.
 
