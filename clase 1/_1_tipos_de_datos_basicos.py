@@ -21,7 +21,7 @@ mi_variable_4 = """
 
 # ### imprimir el tipo de dato #####
 # utilizamos la funcion type() dentro de un print()
-# print( type(mi_variable) )
+# print(type(mi_variable))
 
 
 """ 
@@ -32,6 +32,8 @@ numero_1 = 1
 numero_2 = 2
 # print(numero_1)
 # print(numero_2)
+
+# print(10 / 5)
 
 # ### operaciones con numeros
 # #####  // devuelve el modulo
@@ -45,7 +47,7 @@ suma_de_dos_numeros = numero_1 + numero_2
 
 # ### imprimir el tipo de dato #####
 # utilizamos la funcion type() dentro de un print()
-# print( type(numero_1) )
+# print(type(numero_1))
 
 """ 
   Tipo float
@@ -61,7 +63,7 @@ numero_decimal_3 = 0.5
 
 # ### imprimir el tipo de dato #####
 # utilizamos la funcion type() dentro de un print()
-# print( type(numero_decimal_1) )
+# print(type(numero_decimal_1))
 
 """ 
   Tipo bool  boolean
@@ -75,7 +77,7 @@ falso = False
 
 # ### imprimir el tipo de dato #####
 # utilizamos la funcion type() dentro de un print()
-# print( type(verdadero) )
+# print(type(verdadero))
 
 """ 
   Input 
@@ -89,8 +91,10 @@ falso = False
 nombre = input("Ingrese su nombre: ")
 print(nombre)
 print(type(nombre))
+
 # mi_lista = [nombre]
 # print(mi_lista)
+# print(nombre.split())
 # print(type(mi_lista))
 
 # ejemplo 2:

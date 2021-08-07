@@ -13,7 +13,7 @@
 
   Python también define otros tipos de datos, entre los que se encuentran:
 
-    Secuencias: Los tipos list, tuple y range
+    Secuenciales: Los tipos list, tuple y range
     Mapas: El tipo dict
     Conjuntos: El tipo set
 
@@ -62,12 +62,105 @@
     ['b', 'k', 'a']
 
 
+""" ######   Tuplas   ###### """
+fuente: https://j2logo.com/python/tutorial/tipo-tuple-python/
 
-  """ ####### Git  ######## """
+Las tuplas son un tipo de elemento secuencial al igual que 
+las list con la diferencia que son objetos inmutables. Se deben
+utilizar cuando se quiere tener una coleccion que no pueda ser modificada.
 
-  fuente: https://oswaldo-martinez.gitbook.io/entendiendo-git/
-  fuente: https://medium.com/opendev-blog/the-three-stages-of-git-16565bfa67e5
+### Creacion 
 
-  instalación: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+  tupla_1 = 1, 2, 3, 4, 5
+  tupla_2 = 'hola', 34, True, 2.5
+  tupla_3 = 1, 2, [9, 6, 3], 'Hola', 'personaje'
+  tupla_4 = tuple([2, 3, 4, 'palabra'])   #tuple(iterable)
 
-  instalador: http://git-scm.com/download/win
+#### acceso a los elementos
+
+  La manera de acceso es similar a la de los objetos list
+
+  tupla_1[0]      -> 1
+  tupla_4[-1]     -> 'palabra'
+
+#### excepcion a la regla
+
+  Si bien las tuplas no son mutables, puede que los elementos que contenga si.
+  como el caso de la tupla_3 que contiene un objeto list por lo tanto 
+
+    tupla_3[2].append('c') 
+      ->  tupla_3 = 1, 2, [9, 6, 3, 'c'], 'Hola', 'personaje' 
+
+
+
+ """ ######   Estructuras selectivas e iterativas   ###### """
+
+  if, if else, if elif else 
+  Son funciones que permiten mediante una condicion ejecutar un bloque de codigo
+
+  Las estructuras iterativas permiten generar bucles 
+  for  -  while 
+  for: recorre una coleccion elemento a elemento
+  while: ejecuta un bloque de codigo mientras que la condicion sea true
+  Antes de profundizar en los bucles veamos el tipo range
+
+
+
+  """ ######   Range   ###### """
+fuente: https://j2logo.com/python/tutorial/tipo-range-python/
+
+Range es un tipo de dato que representa una secuencia 
+de numeros inmutables. 
+
+Para crear un objeto de tipo range, se pueden usar dos constructores :
+
+range(fin): Crea una secuencia numérica que va desde 0 hasta fin - 1.
+range(inicio, fin, [paso]): Crea una secuencia numérica que va desde inicio hasta fin - 1. Si además se indica el parámetro paso, la secuencia genera los números de paso en paso.
+
+  >>> list(range(10))
+  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  >>> list(range(5, 10))
+  [5, 6, 7, 8, 9]
+  >>> list(range(0, 10, 3))
+  [0, 3, 6, 9]
+  >>> list(range(0, -10, -1))
+  [0, -1, -2, -3, -4, -5, -6, -7, -8, -9]
+  >>> list(range(5, -5, -2))
+  [5, 3, 1, -1, -3]
+
+
+
+    """ ######   Set   ###### """
+  fuente: https://j2logo.com/python/tutorial/tipo-set-python/
+  
+  Los set o conjuntos son un tipo de coleccion el cual no contiene un orden 
+  y ademas sus elementos son unicos, es decir no pueden repetirse, 
+  este tipo de coleccion es mutable.
+  Además, esta clase también implementa las típicas operaciones matemáticas sobre conjuntos: unión, intersección, diferencia, etc
+
+  No se puede acceder a sus elementos por el indice ya que no guardan la posición.
+  Pero si se puede acceder a ellos utilizando un bucle for
+
+
+  Para añadir un elemento a un conjunto se utiliza el método add(). También existe el método update(), que puede tomar como argumento una lista, tupla, string, conjunto o cualquier objeto de tipo iterable.
+
+  La clase set ofrece cuatro métodos para eliminar elementos de un conjunto. Son: discard(), remove(), pop() y clear(). A continuación te explico qué hace cada uno de ellos.
+
+  discard(elemento) y remove(elemento) eliminan elemento del conjunto. La única diferencia es que si elemento no existe, discard() no hace nada mientras que remove() lanza la excepción KeyError.
+
+  pop() es un tanto peculiar. Este método devuelve un elemento aleatorio del conjunto y lo elimina del mismo. Si el conjunto está vacío, lanza la excepción KeyError.
+
+  Finalmente, clear() elimina todos los elementos contenidos en el conjunto.
+
+
+
+
+""" ######   Dict   ###### """
+  fuente: https://j2logo.com/python/tutorial/tipo-dict-python/
+
+El tipo diccionario es un mapa de clave valor ó key: value
+
+Hay varias formas de crearlos: 
+
+  mi_diccionario = {'nombre': 'Nikolas'}
+  mi_diccionario_2 = {1: 'A'}

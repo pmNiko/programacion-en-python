@@ -2,6 +2,15 @@
     Git && GitHub
                   """
 
+  """ ####### Git  ######## """
+
+  fuente: https://oswaldo-martinez.gitbook.io/entendiendo-git/
+  fuente: https://medium.com/opendev-blog/the-three-stages-of-git-16565bfa67e5
+
+  instalación: https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+
+  instalador: http://git-scm.com/download/win
+
 
 Git es un versionador de código, el cual sirve como sistema de control.
   -> Registra los cambios del proyecto en la linea del tiempo.
