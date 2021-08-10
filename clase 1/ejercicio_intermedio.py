@@ -15,7 +15,7 @@ print("""
     - 4 salir del sistema 
         """)
 
-
+#  Tomi - Perole - Fede
 """ opcion = 0
 
 while opcion != 4:
@@ -33,6 +33,7 @@ while opcion != 4:
         print("Opcion incorrecta.") """
 
 
+# Rau - Nacho -Juli - Juampi
 lista = [input("Ingrese el primer número: "), input(
     "Ingrese el segundo número: "), input("Ingrese el tercer número: ")]
 
