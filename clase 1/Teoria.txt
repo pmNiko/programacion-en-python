@@ -162,5 +162,8 @@ El tipo diccionario es un mapa de clave valor ó key: value
 
 Hay varias formas de crearlos: 
 
-  mi_diccionario = {'nombre': 'Nikolas'}
+  mi_diccionario = {
+      'nombre': 'Nikolas', 
+      'apellido': 5
+    }
   mi_diccionario_2 = {1: 'A'}

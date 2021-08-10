@@ -5,6 +5,7 @@
 # 1. Pares clave: valor encerrados entre llaves
 dict_1 = {'uno': 1, 'dos': 2, 'tres': 3}
 # print(dict_1)
+# print(type(dict_1))
 
 # 2. Argumentos con nombre
 dict_2 = dict(uno=1, dos=2, tres=3)
@@ -36,6 +37,7 @@ dict_6 = dict()
 
 # Devuelve None como valor por defecto si no encuentra la clave
 a = dict_1.get('cuatro')
+# print(a)
 # print(type(a))
 
 
@@ -78,8 +80,8 @@ a = dict_1.get('cuatro')
 #  se puede utilizar pop o del
 # indicando el elemento
 
-dict_1.pop('dos')
-print(dict_1)
+# dict_1.pop('cuatro')
+# print(dict_1)
 
-del dict_1['tres']
-print(dict_1)
+# del dict_1['cuatro']
+# print(dict_1)

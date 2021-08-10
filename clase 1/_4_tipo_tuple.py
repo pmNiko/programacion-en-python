@@ -35,8 +35,10 @@ tupla_4 = tuple([2, True, 'palabra'])
 # Estructura ciclica o iterativa
 # Recorrer los elementos e imprimirlos
 print(tupla_1)
-# for elemento in tupla_1:
-#     print(elemento)
+for elemento in tupla_1:
+    if elemento == 4:
+        break
+    print(elemento)
 
 
 # Estrutura selectiva
@@ -47,7 +49,7 @@ print(tupla_1)
 
 # Tambien podemos ejecutar un bloque de codigo si la
 # condicion da False
-if 101 in tupla_2:
-    print('El elemento 101 existe dentro de la tupla 2')
-else:
-    print('La condición no se cumplio.')
+# if 101 in tupla_2:
+#     print('El elemento 101 existe dentro de la tupla 2')
+# else:
+#     print('La condición no se cumplio.')

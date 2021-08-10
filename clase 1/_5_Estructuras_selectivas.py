@@ -71,9 +71,9 @@
 """ Selectiva if elif else 
     Con este se puede simular un switch
   """
-# if 2 > 3:
-#     print("Se cumple la primera condición.")
-# elif 2 < 3:
-#     print("Se cumple la segunda condición.")
-# else:
-#     print("No se cumplio ninguna de las condiciones.")
+if 2 > 3:
+    print("Se cumple la primera condición.")
+elif 2 < 3:
+    print("Se cumple la segunda condición.")
+else:
+    print("No se cumplio ninguna de las condiciones.")

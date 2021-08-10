@@ -27,15 +27,15 @@ rango = range(1, 11, 1)
 # print(variable_4)
 # print(variable_5)
 
-# for i in range(1, 11):
-#     print(i)
+for i in range(1, 11):
+    print(i)
 
 
 """ while
   """
-indice = 0
+continuar = 0
 
-while indice < 5:
+while continuar < 5:
     print("Se ejecuta el bloque!")
-    # indice = indice + 1
-    indice += 1
+    # continuar = continuar + 1
+    continuar += 1

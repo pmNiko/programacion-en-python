@@ -47,11 +47,11 @@ lista = [input("Ingrese el primer número: "), input(
 
 
 # Solución 2
-# numeros = set(lista)
+numeros = set(lista)
 
-# if len(numeros) == 1:
-#     print("Todos sus elementos son iguales")
-# elif len(numeros) == 2:
-#     print("2 elementos son iguales")
-# else:
-#     print("Todos los elementos son distintos")
+if len(numeros) == 1:
+    print("Todos sus elementos son iguales")
+elif len(numeros) == 2:
+    print("2 elementos son iguales")
+else:
+    print("Todos los elementos son distintos")
