@@ -24,7 +24,7 @@ colores = input("Ingrese 4 colores: ")
 # Impresion de colores
 print(f"Sus colores son: {colores}")
 
-# Al recibirlos como una cadena los podemos splitear por espacios
+# Al recibirlos como una cadena los podemos splitear por espacios`
 # este metodo nos devuelve una list
 colores_lista = colores.split()
 print(colores_lista)
@@ -76,7 +76,7 @@ print(f"Cuarto color: {color4}")
 
 lista = [color1, color2, color3, color4]
 
-lista.append ("Cyan")
+lista.append("Cyan")
 
 print("La cantidad de colores es: ", len(lista))
 

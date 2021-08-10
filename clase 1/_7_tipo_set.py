@@ -5,7 +5,7 @@
 # Crea un conjunto con una serie de elementos entre llaves
 # Los elementos repetidos se eliminan
 conjunto_1 = {1, 3, 2, 9, 3, 1}
-print(conjunto_1)
+# print(conjunto_1)
 
 
 # Crea un conjunto a partir de un string
