@@ -24,6 +24,17 @@ dictionary = {"nombre": nombre, "edad": edad, "apellido": apellido,
 print(dictionary) """
 
 
+# Alex
+""" tu_nombre = input("Ingrese su nombre: ")
+edad = input("Ingrese su edad: ")
+direccion = input("Ingrese su direccion: ")
+telefono = input("Ingrese su numero de telefono: ")
+
+diccionario = {'nombre': tu_nombre , 'edad': edad , 'direccion': direccion , 'telefono': telefono}
+
+print("Su nombre es", diccionario['nombre'], ". Usted tiene", diccionario['edad'], "años, vive en", diccionario['direccion'], "y su numero de telefono es", diccionario['telefono']) """
+
+
 # Ejercicio 2
 
 # Creación de la coleccion
