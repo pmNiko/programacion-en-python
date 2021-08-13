@@ -21,7 +21,7 @@ Ejercicio 2:
   por el usuario pidiendole el precio expresado en xx.xx tipo float, mostrar por consola 
   la nueva tabla de frutas.
 
-  C- Extender el ejercicio anterior para que ahora el usuario tenga un menu con las siguientes opciones:
+  3- Extender el ejercicio anterior para que ahora el usuario tenga un menu con las siguientes opciones:
 
         Menu
       1- Ver tabla 
