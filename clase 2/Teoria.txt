@@ -12,7 +12,7 @@
   instalador: http://git-scm.com/download/win
 
 
-Git es un versionador de código, el cual sirve como sistema de control.
+Git es un versionador de código, el cual sirve como sistema de control de archivos.
   -> Registra los cambios del proyecto en la linea del tiempo.
   -> Permite:
       1. Revertir a un estado anterior
