@@ -1,0 +1,8 @@
+- Crear un nuevo proyecto e inicializar git
+- Crear su propio repositorio en github con el mismo 
+  nombre de su proyecto.
+- Enlazar el repositorio remoto
+- Generar un cambio dentro del proyecto 
+- Hacer un commit y empujar los cambios a github
+- Utilizar la herramienta que provee vscode para ir viendo las diferencias
+
