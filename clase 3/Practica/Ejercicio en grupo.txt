@@ -9,6 +9,8 @@ Ejercicio en grupo """ EN CLASE """
   Realizar un commit por función y empujar los cambios a github.
   Antes de pushear a github realizar un git fetch para verificar actualizaciones, 
   si los hubiera actualizar su rama local.
+  Una vez terminen la actividad y tengan los cambios pusheados a su rama en github 
+  hacer un pull request para mergear con la rama master.
   
   Vamos a generar un Menu de usuario que tenga las siguientes opciones:
 
@@ -46,3 +48,11 @@ Ejercicio en grupo """ EN CLASE """
       
       Opción 6 pedir los datos correspondientes al usuario por consola para
         calcular el area de un rectangulo.
+
+
+Ahora si vamos al repositorio en la rama main vemos que no estan los cambios 
+de los grupos pero podemos una notificación el la pestaña Pull requests
+Aca vamos a visualizar todos los pull requests solicitados, seleccionesmos 1
+Tenemos varias pestañas entre las que podemos ver los commits realizados. 
+Vallamos a Files changed para comparar los archivos modificados.
+Por ultimo hagamos el merge.
