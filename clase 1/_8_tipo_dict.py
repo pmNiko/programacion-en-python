@@ -85,3 +85,31 @@ a = dict_1.get('cuatro')
 
 # del dict_1['cuatro']
 # print(dict_1)
+
+
+""" Tupla como clave de un dict """
+# una tupla como clave dentro de un diccionario
+# locations = {
+#     (35.12754, 40.5454): "Tokio",
+#     (75.12754, 41.5454): "New York"
+# }
+
+# print(type(locations))
+
+# print(locations[(35.12754, 40.5454)])
+
+
+""" Una lista de diccionarios """
+# products = [
+#     {
+#         "name": "book 1",
+#         "quantity": 3,
+#         "price": 15.50
+#     }, {
+#         "name": "book 2",
+#         "quantity": 7,
+#         "price": 20.30
+#     }
+# ]
+
+# print(products)

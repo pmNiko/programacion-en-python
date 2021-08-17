@@ -1,0 +1,48 @@
+Ejercicio en grupo """ EN CLASE """
+  Vamos a trabajar dentro del repositorio grupal 
+  """ Programacion en Python """
+
+  Para realizar el ejercicio deben tener configurado git y github
+  clonar el repositorio https://github.com/pmNiko/programacion-en-python
+  Generar una nueva rama con el nombre del grupo ej: "grupo_A"
+  Moverse a la nueva rama creada para empezar realizar el ejercicio.
+  Realizar un commit por función y empujar los cambios a github.
+  Antes de pushear a github realizar un git fetch para verificar actualizaciones, 
+  si los hubiera actualizar su rama local.
+  
+  Vamos a generar un Menu de usuario que tenga las siguientes opciones:
+
+  Menu
+  1- Saludar usuario
+  2- Mostrar un numero aleatorio
+  3- Mostrar opcion elegida
+  4- Ver fecha actual
+  5- Login de usuario
+  6- Area de un rectangulo
+  7- Salir
+
+
+  Grupo A: 
+    Opciones 1 - 2 - 3 
+    A tener en cuenta: 
+      Opción 1 debe imprimir por consola en color verde el saludo al usuario
+      Opción 2 debe imprimir un numero aleatorio del 5 al 20, utilizar el 
+        modulo random propio de python fuente: https://www.w3schools.com/python/gloss_python_random_number.asp
+      Opción 3 asumir que el usuario selecciona una opcion, la función la recibe 
+      como parametro para imprimirla por consola con f string.
+
+  Grupo Z: 
+    Opciones 4 - 5 - 6 
+    A tener en cuenta: 
+      Opción 4 debe imprimir por consola con f string el mensaje:
+        "La fecha actual es 17/08/2021"
+      fuente: https://codigofacilito.com/articulos/fechas-python
+
+      Opción 5 El usuario debe ingresar nick y password por consola 
+        si coinciden con las credenciales indicar con un mensaje 
+          "Logueado con exito!" de lo contrario indicar "Error de credenciales"
+        Pista: crear dos variables dentro de la fn para comparar contra lo que 
+        ingresa el usuario por consola simulando un login.
+      
+      Opción 6 pedir los datos correspondientes al usuario por consola para
+        calcular el area de un rectangulo.
