@@ -1,8 +1,39 @@
-- Crear un nuevo proyecto e inicializar git
-- Crear su propio repositorio en github con el mismo 
-  nombre de su proyecto.
-- Enlazar el repositorio remoto
-- Generar un cambio dentro del proyecto 
-- Hacer un commit y empujar los cambios a github
-- Utilizar la herramienta que provee vscode para ir viendo las diferencias
 
+Ejercicio 1
+  - Crear un nuevo proyecto e inicializar git
+  - Crear su propio repositorio en github con el mismo 
+    nombre de su proyecto.
+  - Enlazar el repositorio remoto
+  - Generar un cambio dentro del proyecto 
+  - Hacer un commit y empujar los cambios a github
+  - Utilizar la herramienta que provee vscode para ir viendo las diferencias
+
+
+
+Ejercicio 2
+  Ejercicios
+
+  Generar un commit por objetivo cumplido y pushear a GitHub
+
+  1- Crear una lista vacía en una variable mi_lista e imprimirla por consola mostrando el tipo de dato al que pertenece.
+
+  2- extender el ejercicio anterior pedirle al usuario que ingresé 4 ciudades y almacenarlas en una tupla. Desempaquetar la tupla e imprimir la primera y la última.
+
+  3- extender el ejercicio para calcular el área de un círculo pedirle por consola al usuario que ingresé los datos de su círculo. Imprimir por consola el área. 
+
+  4- ingresar por consola 7 números y almacenarlos en mi_lista recorrerlos con un bucle for para mostrar por consola el mensaje índice i elemento. 
+
+  5- Crear una colección que acepte elementos de tipo clave-valor y almacenar 5 elementos: 
+      nombreDeUsuario - DNI
+
+  6- crear un menú de usuario con las siguientes opciones: 
+    Menú
+    1- Mostrar los números de la lista
+    2- Mostrar ciudades 
+    3- Calcular el área de un círculo
+    4- Agregar número a la lista y        mostrar los números distintos
+    5- Agregar usuario y DNI 
+    6- Buscar usuario por nombre e imprimir su DNI
+
+
+  Para simular el menú de opciones hacer uso del bucle while y para la selección de opciones utilizar if elif else.
