@@ -3,7 +3,7 @@
   """
 
 # 1. Pares clave: valor encerrados entre llaves
-dict_1 = {'uno': 1, 'dos': 2, 'tres': 3}
+dict_1 = {'uno': 1, 'dos': 2, 'tres': 3, 'cuatro': 4}
 # print(dict_1)
 # print(type(dict_1))
 
@@ -94,7 +94,7 @@ a = dict_1.get('cuatro')
 #     (75.12754, 41.5454): "New York"
 # }
 
-# print(type(locations))
+# print(locations)
 
 # print(locations[(35.12754, 40.5454)])
 
