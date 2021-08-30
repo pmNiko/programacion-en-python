@@ -23,7 +23,7 @@ Ejercicio 2:
 
   3- Extender el ejercicio anterior para que ahora el usuario tenga un menu con las siguientes opciones:
 
-        Menu
+      Menu
       1- Ver tabla 
       2- Elegir fruta 
       3- Cargar nueva fruta
