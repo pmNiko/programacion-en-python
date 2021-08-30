@@ -4,14 +4,15 @@
 
 """ Modulo de Python """
 # Modulo propio de Python
+from colorama import Fore, Style
+from _3_funciones import holaUsuario
 import datetime
 
-print(datetime.date.today())
+# print(datetime.date.today())
 # print(datetime.timedelta(minutes=70))
 
 
 """ Modulos creados por nosotros """
-# from funciones import holaUsuario
 
 # holaUsuario()
 
@@ -19,9 +20,9 @@ print(datetime.date.today())
 """ Modulo descargado de internet """
 # fuente: https://pypi.org/project/colorama/
 # una vez descargado e instalado el modulo
-# Podemos verlo con pip list
+# Podemos verlo con pip3 list
+# pip3 install colorama
 
-# from colorama import Fore, Style
-# print(Fore.RED + "Este es un texto en rojo")
-# print(Style.RESET_ALL)
-# print('Este es otro mensaje')
+print(Fore.RED + "Este es un texto en rojo")
+print(Style.RESET_ALL)
+print('Este es otro mensaje en blanco')
