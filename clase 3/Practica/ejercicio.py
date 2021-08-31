@@ -1,3 +1,5 @@
+from funciones import saludarUsuario, numeroAleatorio
+
 """ Ejercicio en grupo """
 
 menu = """ 
@@ -17,11 +19,12 @@ opcion = 0
 
 while opcion != 7:
     opcion = int(input("Ingrese una opción: "))
-
+    # Saludar usuario
     if opcion == 1:
-        pass
+       saludarUsuario()
+    # Numero aleatorio
     elif opcion == 2:
-        pass
+        numeroAleatorio()
     elif opcion == 3:
         pass
     elif opcion == 4:
