@@ -13,7 +13,7 @@ menu = """
 
 print(menu)
 
-opcion = 78
+opcion = 0
 
 while opcion != 7:
     opcion = int(input("Ingrese una opción: "))
