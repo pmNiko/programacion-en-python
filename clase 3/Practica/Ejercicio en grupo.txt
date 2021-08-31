@@ -55,4 +55,4 @@ de los grupos pero podemos una notificación el la pestaña Pull requests
 Aca vamos a visualizar todos los pull requests solicitados, seleccionesmos 1
 Tenemos varias pestañas entre las que podemos ver los commits realizados. 
 Vallamos a Files changed para comparar los archivos modificados.
-Por ultimo hagamos el merge.
+Por ultimo hagamos el merge
