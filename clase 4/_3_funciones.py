@@ -20,3 +20,28 @@ def imprimirTabla(usuarios: dict):
 
 # usuarios = {'Nicola': 'Tesla', 'Juan': 'Baustista', 'Pedro': 'Juarez'}
 # imprimirTabla(usuarios)
+
+
+""" # -------    fn con parametros nombrados --------- # """
+
+
+def misDatos(nombre='Nikolas', edad=32, dni='34.220.535'):
+    print(f'Soy {nombre} tengo {edad} y mi DNI es {dni}')
+
+
+# misDatos()
+# misDatos('Juan', 28, '43.435.980')
+# misDatos(edad=33)
+
+
+""" Por ultimo veamos que puede recibir una función """
+
+# def miFuncion(argument, *args, **kwargs):
+#     print(argument)
+#     print(args)
+#     print(kwargs)
+#     print(type(argument), type(args), type(kwargs))
+#     return argument, args, kwargs
+
+
+# print(miFuncion(45, 32, 45, 67, "parameter", name="Martin", surname="paneblanco"))

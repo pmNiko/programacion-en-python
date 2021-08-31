@@ -1,0 +1,7 @@
+"""
+    Ejercicios para las funciones de orden superior
+    """
+
+
+  => Ejercicio 1:
+     

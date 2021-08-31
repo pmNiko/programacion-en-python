@@ -2,16 +2,6 @@
 from functools import reduce
 from operator import add
 
-
-# -------    fn con parametros nombrados --------- #
-def misDatos(nombre='Nikolas', edad=32, dni='34.220.535'):
-    print(f'Soy {nombre} tengo {edad} y mi DNI es {dni}')
-
-
-# misDatos()
-# misDatos('Juan', 28, '43.435.980')
-# misDatos(edad=33)
-
 """ Cómo se define una función anónima en Python
 La sintaxis para definir una función lambda es la siguiente: 
 
@@ -104,14 +94,30 @@ def sumandos(numero1, numero2):
 # print(reduce(add, valores, 2))
 
 
-""" Por ultimo veamos que puede recibir una función """
-
-# def miFuncion(argument, *args, **kwargs):
-#     print(argument)
-#     print(args)
-#     print(kwargs)
-#     print(type(argument), type(args), type(kwargs))
-#     return argument, args, kwargs
+"""  enumerate()  
+    El método enumerate() agrega un contador a un iterable y lo devuelve 
+    en forma de objeto enumerador. 
+    Este objeto enumerado se puede usar directamente para bucles o convertirse 
+    en una lista de tuplas usando el método list ().   """
 
 
-# print(miFuncion(45, 32, 45, 67, "parameter", name="Martin", surname="paneblanco"))
+# Listas de objetos
+mi_lista = ["Notebook", "PC Desktop", "Mouse", "Parlantes", "Pad"]
+
+# Por defecto nos devolverá una secuencia de tuplas
+# for ele in enumerate(mi_lista):
+#     print(ele)
+
+# La fn enumerate() recibe como parametro un iterable y in int para su contador
+# for indice, elemento in enumerate(mi_lista, 1):
+#     print(indice, " => ", elemento)
+
+
+# Mediante la función dict podemos recuperar un diccionario de elementos
+# en base a nuestra mi_lista y el metodo enumerate()
+# elementos_informaticos_dict = dict(list(enumerate(mi_lista, 1)))
+
+# print(elementos_informaticos_dict)
+
+
+""" Investigar que hace y para que sirve la función zip """
