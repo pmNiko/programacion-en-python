@@ -13,4 +13,8 @@ def credenciales():
         print("\nLogueado con exito!")
     else:
         print("\nError de credenciales")
-        
+
+def areaRectangulo(): 
+    altura = int(input("\nIngrese la altura del rectangulo: "))
+    largo = int(input("\nIngrese el largo del rectangulo: ")) 
+    print("\nEl area del rectangulo es: " + str(largo * altura) + " cm2")

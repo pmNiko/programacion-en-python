@@ -31,7 +31,7 @@ while opcion != 7:
     elif opcion == 5:
         credenciales()
     elif opcion == 6:
-        pass
+        areaRectangulo()
     elif opcion == 7:
         print("Saliendo del sistema...")
     else:
