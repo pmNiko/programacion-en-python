@@ -1,3 +1,5 @@
+from funciones import fechaActual, credenciales, areaRectangulo
+
 """ Ejercicio en grupo """
 
 menu = """ 
@@ -25,9 +27,9 @@ while opcion != 7:
     elif opcion == 3:
         pass
     elif opcion == 4:
-        pass
+        fechaActual()
     elif opcion == 5:
-        pass
+        credenciales()
     elif opcion == 6:
         pass
     elif opcion == 7:
