@@ -1,4 +1,22 @@
+
+from colorama import Fore,Style
+import random
 from datetime import datetime
+
+def saludarUsuario():
+    usuario = input('ingrese su nombre: ')
+    print(Fore.GREEN)
+    print(f'hola {usuario}.')
+    print(Style.RESET_ALL)
+    
+def numeroAleatorio():
+    numero_rand = random.randrange(1, 10)
+    print(numero_rand)
+    
+def opcionElegida(op):
+    print(f'opcion elegida {op}')
+
+
 
 
 # Muestra la fecha actual
@@ -25,3 +43,4 @@ def areaRectangulo():
     altura = int(input("\nIngrese la altura del rectangulo: "))
     largo = int(input("\nIngrese el largo del rectangulo: ")) 
     print("\nEl area del rectangulo es: " + str(largo * altura) + " cm2")
+

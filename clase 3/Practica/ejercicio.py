@@ -1,4 +1,8 @@
-from funciones import fechaActual, credenciales, areaRectangulo
+
+from funciones import saludarUsuario, numeroAleatorio, opcionElegida, fechaActual, credenciales, areaRectangulo
+
+
+
 
 """ Ejercicio en grupo """
 
@@ -19,13 +23,14 @@ opcion = 0
 
 while opcion != 7:
     opcion = int(input("Ingrese una opción: "))
-
+    # Saludar usuario
     if opcion == 1:
-        pass
+       saludarUsuario()
+    # Numero aleatorio
     elif opcion == 2:
-        pass
+        numeroAleatorio()
     elif opcion == 3:
-        pass
+        opcionElegida(opcion)
     elif opcion == 4:
         fechaActual()
     elif opcion == 5:
