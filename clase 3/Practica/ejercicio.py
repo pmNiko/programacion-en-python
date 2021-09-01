@@ -1,4 +1,8 @@
-from funciones import saludarUsuario, numeroAleatorio, opcionElegida
+
+from funciones import saludarUsuario, numeroAleatorio, opcionElegida, fechaActual, credenciales, areaRectangulo
+
+
+
 
 """ Ejercicio en grupo """
 
@@ -28,11 +32,11 @@ while opcion != 7:
     elif opcion == 3:
         opcionElegida(opcion)
     elif opcion == 4:
-        pass
+        fechaActual()
     elif opcion == 5:
-        pass
+        credenciales()
     elif opcion == 6:
-        pass
+        areaRectangulo()
     elif opcion == 7:
         print("Saliendo del sistema...")
     else:
