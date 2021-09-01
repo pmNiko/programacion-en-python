@@ -1,3 +1,5 @@
+from funciones import fechaActual, credenciales, areaRectangulo
+
 """ Ejercicio en grupo """
 
 menu = """ 
@@ -13,7 +15,7 @@ menu = """
 
 print(menu)
 
-opcion = 78
+opcion = 0
 
 while opcion != 7:
     opcion = int(input("Ingrese una opción: "))
@@ -25,11 +27,11 @@ while opcion != 7:
     elif opcion == 3:
         pass
     elif opcion == 4:
-        pass
+        fechaActual()
     elif opcion == 5:
-        pass
+        credenciales()
     elif opcion == 6:
-        pass
+        areaRectangulo()
     elif opcion == 7:
         print("Saliendo del sistema...")
     else:
