@@ -1,4 +1,4 @@
-from funciones import saludarUsuario, numeroAleatorio
+from funciones import saludarUsuario, numeroAleatorio, opcionElegida
 
 """ Ejercicio en grupo """
 
@@ -26,7 +26,7 @@ while opcion != 7:
     elif opcion == 2:
         numeroAleatorio()
     elif opcion == 3:
-        pass
+        opcionElegida(opcion)
     elif opcion == 4:
         pass
     elif opcion == 5:

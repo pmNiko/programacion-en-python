@@ -10,3 +10,6 @@ def saludarUsuario():
 def numeroAleatorio():
     numero_rand = random.randrange(1, 10)
     print(numero_rand)
+    
+def opcionElegida(op):
+    print(f'opcion elegida {op}')
