@@ -1,4 +1,5 @@
 # Importacion de modulos
+from operator import itemgetter
 from functools import reduce
 from operator import add
 
@@ -122,4 +123,106 @@ mi_lista = ["Notebook", "PC Desktop", "Mouse", "Parlantes", "Pad"]
 # print(elementos_informaticos_dict)
 
 
-""" Investigar que hace y para que sirve la función zip """
+""" zip() 
+    La función zip() es utilizada para mapear los mismos índices en más de un iterable. 
+    Mapear estos índices generara un objeto zip."""
+
+
+x = ("Joey", "Monica", "Ross")
+
+y = ("Chandler", "Pheobe")
+
+z = ("David", "Rachel", "Courtney")
+
+result = zip(x, y, z)
+
+# print(result)
+
+# print(tuple(result))
+
+
+# ----- Podriamos convertir dos listas en un dict() ---- #
+coin = ('Bitcoin', 'Ether', 'Ripple', 'Litecoin')
+
+code = ('BTC', 'ETH', 'XRP', 'LTC')
+
+monedas = dict(zip(coin, code))
+
+# print(monedas)
+
+
+""" sorted() 
+    Anteriormente vimos como ordenar una colección de menor a mayor 
+    o de mayor a menor, pero que pasa cuando el criterio de ordenamiento 
+    es mas complejo. La fn sort() ademas del argumento reverse(opcional), 
+    puede recibir un argumento key el cual espera recibir el nombre de 
+    función."""
+
+# Ordenando una lista de listas
+# personas = [
+#     ['Lisa', 42],
+#     ['Bart', 10],
+#     ['Maggie', 2],
+# ]
+
+
+# def segundoElemento(una_lista):
+#     """ La fn espera recibir una lista de dos elementos
+#     y devuelve el segundo."""
+#     return una_lista[1]
+
+
+# personas_ordenadas = sorted(personas, key=segundoElemento)
+
+# print(personas_ordenadas)
+
+# ------ Ahora hagamoslo con una lista de dict ----- #
+# simpsons = [
+#     {'name': 'Lisa', 'age': 42},
+#     {'name': 'Bart', 'age': 9},
+#     {'name': 'Maggie', 'age': 2}
+# ]
+
+
+# def ordenarPorEdad(un_dict):
+#     """ La fn espera recibir un dict y devolver el valor
+#     de su key 'age'"""
+#     return un_dict['age']
+
+
+# simpsons_ordenados = sorted(simpsons, key=ordenarPorEdad)
+
+# print(simpsons_ordenados)
+
+
+""" Importando el modulo operator para utilizar el metodo itemgetter()
+    y ordenar colecciones"""
+
+# Veamos como resolveriamos el ejemplo anterior
+# debemos importar
+# from operator import itemgetter
+
+# ---- Ordenamiento de una lista -----
+# simpsons = [
+#     ['Lisa', 42],
+#     ['Bart', 9],
+#     ['Maggie', 2]
+# ]
+
+# print(sorted(simpsons, key=itemgetter(1)))
+
+# ---- Ordenamiento de un diccionario
+# simpsons = [
+#     {'name': 'Lisa', 'age': 42},
+#     {'name': 'Bart', 'age': 9},
+#     {'name': 'Maggie', 'age': 2}
+# ]
+
+# print(sorted(simpsons, key=itemgetter('age')))
+
+
+""" sorted vs sort
+    Para tener en cuenta sorted devuelve una nueva colección 
+    bajo un criterio de ordenamiento, a diferencia del metodo 
+    sort que ordena la colección original.
+ """
