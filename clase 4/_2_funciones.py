@@ -19,6 +19,8 @@ La sintaxis para definir una función lambda es la siguiente:
     """
 
 
+""" Las funciones de orden superior son aquellas que permiten recibir otras fn como parametro """
+
 """  map()  
     La función map() en Python aplica una función a cada uno de los elementos de una lista.
 
