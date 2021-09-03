@@ -60,3 +60,39 @@
       >>> 102 Pera
       >>> 103 Naranja
       >>> 104 Manzana 
+
+    
+    => Ejercicio 5:
+      Realizar una función asociar() que reciba como parametro dos listas 
+      de la misma longitud de elementos y devuelva un diccionario de pares 
+      clave-valor asociando cada elemento de ambas listas segun su indice. 
+
+      Ej:
+        empleado = ['Juli', 'Carlos', 'Roberto', 'Marta']
+        categoria = ['Categoria B', 'Categoria C', 'Categoria A', 'Categoria D']
+
+        diccionario = asociar(empleado, categoria)
+
+        print(diccionario)
+
+        >>> {
+            'Juli': 'Categoria B', 
+            'Carlos': 'Categoria C', 
+            'Roberto': 'Categoria A', 
+            'Marta': 'Categoria D'
+          }
+
+    => Ejercicio 6:
+      Extender el ejercicio anterior, crear una función ordenarPorCategoria 
+      que reciba como param el diccionario, que devuelve la función asociar, 
+      y devuelva un nuevo diccionario ordenado por categoria.
+
+      Ej: 
+        print(ordenarPorCategoria(diccionario))
+
+        >>> {
+          'Roberto': 'Categoria A', 
+          'Juli': 'Categoria B', 
+          'Carlos': 'Categoria C', 
+          'Marta': 'Categoria D'
+          }
