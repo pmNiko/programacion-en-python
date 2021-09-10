@@ -91,3 +91,20 @@ cortes de ejecucion, lanzando excepciones no manejadas.
 # except TypeError:
 #     print("No se pude concateenar un str con un tipo int.")
 # print("La ejecucion del programa continua porque hemos manejado la excepción")
+
+
+""" Como propagar una excepcion """
+
+# try:
+#     raise NameError
+# except NameError:
+#     print("Usted ha propagado una excepción.")
+
+
+""" Incluso podemos pasarle información del error """
+
+# try:
+#     raise NameError({"mensaje": "La variable no ha sido encontrada."})
+# except NameError as err:
+#     detalle = err.args[0]
+#     print(detalle["mensaje"])
