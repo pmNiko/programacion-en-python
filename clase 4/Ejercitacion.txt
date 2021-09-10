@@ -32,7 +32,7 @@
 
   
   => Ejercicio 3:
-    Realiza una fn aculado, que devuelva el valor acumulado 
+    Realiza una fn acumulado, que devuelva el valor acumulado 
     de la suma de una lista de numeros mas 100.
 
     Ej: 

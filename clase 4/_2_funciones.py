@@ -1,7 +1,6 @@
 # Importacion de modulos
-from operator import itemgetter
+from operator import itemgetter, add
 from functools import reduce
-from operator import add
 
 """ Cómo se define una función anónima en Python
 La sintaxis para definir una función lambda es la siguiente: 
@@ -60,8 +59,7 @@ def cuadradoDeUnNumero(numero):
 
 
 # def numeroPares(numero):
-#     if numero % 2 == 0:
-#         return numero
+#     return numero % 2 == 0 and numero != 0
 
 
 # numeros_pares = list(filter(numeroPares, valores))
@@ -154,9 +152,9 @@ monedas = dict(zip(coin, code))
 """ sorted() 
     Anteriormente vimos como ordenar una colección de menor a mayor 
     o de mayor a menor, pero que pasa cuando el criterio de ordenamiento 
-    es mas complejo. La fn sort() ademas del argumento reverse(opcional), 
-    puede recibir un argumento key el cual espera recibir el nombre de 
-    función."""
+    es mas complejo. La fn sorted() ademas del argumento reverse(opcional), 
+    puede recibir un argumento key el cual espera recibir el nombre de una
+    función. La fn sorted devuelve una nueva coleccion como resultado."""
 
 # Ordenando una lista de listas
 # personas = [
