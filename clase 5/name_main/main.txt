@@ -1,0 +1,50 @@
+"""
+    Entendiendo que hace 'main'
+  """
+
+  Por defecto Python interpreta los archivos con extension "py"
+  como un modulo de Python, antes de ejecutar el archivo fuente 
+  el interprete de python define algunas variables globales. Aca 
+  es donde si el interprete encuentra que esta ejecutando este modulo
+  como programa principal establecera la variable __name__ con valor __main__
+  , por el contrario si esta importado desde otro modulo, __name__ tendrá como 
+  valor el nombre del modulo importado.
+
+
+  Una manera del ver el valor de la variable es ejecutando un print(__name__)
+  Creemos un modulo_a.py:
+    print("Nombre del modulo: ", __name__)
+
+  Si lo ejecutamos: 
+    >>> Nombre del modulo:  __main__
+
+  Ahora creemos un modulo_b
+    >>> import modulo_a
+
+  y lo ejecutamos:
+    >>> Nombre del modulo:  modulo_a
+
+  De esta manera podemos ver como funciona el interprete de python, por esta razon es que 
+  se coloca el loader if __name__ == "__main__": 
+  gracias a este es que podemos controlar la ejecución de nuestros modulos. 
+
+
+
+  ------------   Segunda parte -----------------
+
+  Creemos un modulo_c.py y dentro ponemos el siguiente codigo:
+
+    def nombreDelModulo():
+      print(f'La variable __name__ tiene asignado: {__name__}')
+
+    
+    if __name__ == '__main__':
+      nombreDelModulo()
+
+  
+  Ahora creamos un modulo_d y dentro:
+
+    import modulo_c
+
+  Al ejecutarlo podemos ver que no muestra nada por consola, esto se debe a 
+  que la funcion nombreDelModulo() no se ejecuto a causa de la comprobación. 
