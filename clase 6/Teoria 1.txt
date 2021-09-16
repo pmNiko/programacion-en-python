@@ -1,0 +1,74 @@
+""" 
+    Que son los decoradores en Python
+                                      """
+
+Un decorador es un patron de software quw se utiliza para alterar el 
+funcionamiento de una determinada pieza de codigo, ya sea una función 
+o una clase sin la necesidad de emplear otros mecanismos como la herencia.
+
+En concreto, nos referimos a funciones u objetos con un comportamiento similar 
+que nos permite alterar como funcionan otras entidades sin tener que modificar 
+su codigo explicitamente.
+
+______________________________________________________________________________
+
+
+Antes de entrar en detalle recordemos que puede recibir una fn como parametro:
+
+  """ Por ultimo veamos que puede recibir una función """
+
+  def miFuncion(argument, *args, **kwargs):
+    print('\tParametro   \t    Tipo \t\tContenido')
+    print(f'\targument   \t{type(argument)} \t\t   {argument}')
+    print(f'\t*args      \t{type(args)} \t{args}')
+    print(f'\t*kwargs    \t{type(kwargs)} \t\t{kwargs}')
+
+
+miFuncion(45, 32, 45, 67, "parameter", name="Martin", surname="paneblanco")
+
+Podremos ver por consola:
+
+          Parametro           Tipo                Contenido
+          argument        <class 'int'>              45
+          *args           <class 'tuple'>         (32, 45, 67, 'parameter')
+          *kwargs         <class 'dict'>          {'name': 'Martin', 'surname': 'paneblanco'}
+
+Analicemos que ha tomado la fn:
+  - Como primer parametro se le paso el int 45, este fue asignado a => argument
+  - *args recibe todos los parametros que no son de palabra clave
+  - Y por ultimos **kwargs recibe los parametros de palabra clave
+
+______________________________________________________________________________
+
+  Teniendo esto en claro podemos continuar.
+
+  En resumen los decoradores no hacen otra cosa mas que agregar funcionalidad 
+  a una función que se recibe como parametro y retornan una nueva fn. 
+
+    funcionA(funcionB): -> funcionC
+
+  Veamos el primer escenario: script _1_decoradores.py 
+
+  Bien como podemos ver la función decorada a recibido funcionalidad extra. 
+  Puede aplicarse a multiples funciones. 
+
+
+
+______________________________________________________________________________
+
+  Ahora veamos el caso en el que nuestra función a decorar deba recibir parametros,
+  Bien para esto vamos a hacer uso de nuestros parametros *args y **kwargs
+
+  veamos el escenario en el script: _2_decoradores.py
+
+  Como podemos ver ahora nuestro decorador es mas flexible y puede recibir los parametros 
+  necesarios para nuestra función a decorar.
+  Por convención la función decorada que retornamos se llama wrapper. Entonces podemos hacer 
+  un refactor de nuestro decorador: 
+
+  def decorador_custom(function):
+
+    def wrapper(*args, **kwargs):
+        return function(*args, **kwargs)
+    
+    return wrapper

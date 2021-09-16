@@ -1,0 +1,36 @@
+"""
+  Trabajando con decoradores 
+                            """
+
+Creemos un decorador que calcule el tiempo que toma realizar una 
+operación matematica. 
+
+Ver script: _3_decoradores.py
+
+Podemos ver en un caso práctico como puede ayudarnos un decorador.
+
+
+___________________________________________________________________
+
+Asi mismo podemos realizar un decorador que reciba un nombre como param
+
+Para esto debemos crear una segunda fn anidada en el decorador y bajar los 
+argumentos un nivel. 
+
+ver el script: _4_decoradores.py
+
+Veamos un ejemplo mas en el que un decorador recibe un argumento.
+ver el script: _5_decoradores.py
+
+En este caso podemos ver como el argumento que recibe como param el decorador 
+afecta el flujo de ejecución del mismo.
+
+
+___________________________________________________________________
+
+Por ultimo veamos como se pueden encadenar decoradores
+
+Ver el script: _6_decoradores.py
+
+Este es un simple ejemplo que muestra como se puede encadenar decoradores
+para afectar nuestras funciones.
