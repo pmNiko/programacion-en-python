@@ -36,12 +36,12 @@ def misDatos(nombre='Nikolas', edad=32, dni='34.220.535'):
 
 """ Por ultimo veamos que puede recibir una función """
 
-# def miFuncion(argument, *args, **kwargs):
-#     print(argument)
-#     print(args)
-#     print(kwargs)
-#     print(type(argument), type(args), type(kwargs))
-#     return argument, args, kwargs
+
+def miFuncion(argument, *args, **kwargs):
+    print('\tParametro   \t    Tipo \t\tContenido')
+    print(f'\targument   \t{type(argument)} \t\t   {argument}')
+    print(f'\t*args      \t{type(args)} \t{args}')
+    print(f'\t*kwargs    \t{type(kwargs)} \t\t{kwargs}')
 
 
-# print(miFuncion(45, 32, 45, 67, "parameter", name="Martin", surname="paneblanco"))
+miFuncion(45, 32, 45, 67, "parameter", name="Martin", surname="paneblanco")
