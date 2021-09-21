@@ -1,0 +1,252 @@
+"""                                                                               """
+
+   Para realizar la actividad deberá crear un repositorio propio llamado 
+   "nombre-apellido-test" y enviar el link via email para ser evaluado.
+   Genere un commit por punto y pushee el commit a main.
+
+"""                                                                               """
+
+Punto 1: 
+  a- A traves de que extension de archivo se genera un script de python. Ejemplifique.
+  b- Definir con sus palabras que es una variable?
+
+
+
+
+___________________________________________________________________________________
+
+Punto 2:
+  a- Enumere los tipos de datos primitivos. 
+     Cual es la diferencia entre el tipo Int y Float
+  b- Enumere los tipos de colecciones que conoce. 
+     Cual es la diferencia entre los tipos list y tuple  
+
+
+
+
+___________________________________________________________________________________
+
+Punto 3:
+  Las estructuras selectivas nos permiten tomar desiciones logicas, es decir se evalua 
+  una condición y en función del resultado se realizarán una determinada serie de instruciones.
+  Se puede hacer uso de las palabra reservadas: 
+    1ra. "if" 
+    2da. "if - else" 
+    3ra. "if - elif - else" 
+
+  Sabiendo esto podemos decir que en python simulamos el comportamiento de un switch a traves de 
+  la tercera estructura antes dicha. Cree un script de python llamado punto_3.py con el siguiente 
+  código dentro: 
+
+        # Inicio de mi programa
+        mi_variable = 4
+
+        if mi_variable == 0:
+          print("Ha ingresado a la primera validación.")
+
+        elif mi_variable > 3:
+          print("Ha ingresado a la segunda validación.")
+
+        elif mi_variable > 6:
+          print("Ha ingresado a la tercer validación.")
+
+        else: 
+          print("No hay coincidencias.")
+
+        # Fin del código
+
+   
+   Ejecute el código. 
+    a- Cual es el print que se mustra por consola? 
+    b- Ahora cambie el valor de "mi_variable" 
+
+        mi_variable = 7
+
+    Cual es el print que se muestra por consola? Describa el resultado. 
+    Puede hacer uso del debug.
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 4: 
+  Los bucles de iteración nos sirven para recorrer las colecciones. 
+  Con sus palabra responda:
+    a- Cuando corta la iteración un bucle "for" ?
+    b- Cuando termina de iterar un bucle "while" ?
+  Cree un script llamado: "punto_4.py" 
+    c- Genere un ejemplo del bucle "for" en el cual recorra los elementos de una lista 
+        y los imprima por consola.
+    d- Genere un ejemplo del bucle "while" en el cual se imprima 5 veces la siguiente 
+        frase por consola: "La condición se cumplio." 
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 5: 
+  a- Git es un sistema para el control de versiones de nuestro codigo. Cuales son las 
+    areas que lo componen?
+  b- Con que comando pasa los cambios realizados del "working directory" al "Staging area"
+  c- Con que comando genera un commit?  
+  d- GitHub nos permite alojar los projectos en la nube. Una vez enlazado el proyecto local
+    el repositorio remoto con que comando empujamos nuestros cambios?
+  e- Si quisieramos traernos los cambios del repositorio remoto que comando usariamos?
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 6:
+  Las funciones nos permiten modularizar bloques de codigo y aporta a la reutilización 
+  del mismo. 
+  a- Cree un modulo llamado: "punto_6.py" y dentro defina una función "resta" que reciba como 
+    parametro dos numeros y restorne el resultado de dicha operacion matematica. Documente dicha 
+    función para que explique brevemente cual es su objetivo. 
+    Haga uso de la función que acaba de relizar asignando la devolución de la fn a una variable 
+    resultado, y luego imprima dicha variable. 
+
+  b- Las funciones de orden superior reciben como parametro otras funciones. Enumere cuales conoce
+     y describa brevemente para que sirve cada una. 
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 7: 
+  Cree un script llamado: "punto_7.py" 
+  dentro coloque el siguiente codigo:
+
+    # Inicio del programa 
+    def getOne(una_lista):
+      for elemento in una_lista:
+          return elemento
+
+    
+    def getElements(una_lista):
+      for elemento in una_lista:
+          yield elemento
+
+
+    
+    if __name__ == "__main__":
+
+        numeros = [1,2,3,4,5]
+
+        devolución = getOne(numeros)
+
+        print(devolución)
+
+
+        resultado = list(getElements(numeros))
+
+        print(resultado)
+
+    # Fin del programa
+
+
+  Cual es la diferencia entre el return y el yield en un bucle for?
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 8: 
+  Si crea un modulo de python modulo_a.py:
+
+    # Inicio del modulo modulo_a.py
+    def hola():
+        print("Hello world!!!")
+
+
+    if __name__ == "__main__":
+        hola()
+
+    # fin del modulo_a
+
+  Y luego lo importa en el modulo_b.py 
+  Que beneficio le aportaria haber hecho uso de: if __name__ == "__main__":
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 9: 
+  Las excepciones se producen cuando la ejecucion del programa no se ejecuta correctamente.
+  a- Con que palabra reservada se lanza una excepción ?
+  b- Con que sentencia se maneja una excepción?
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
+
+Punto 10:
+
+  Explique con sus palabras para que sirve un decorador? 
+
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________________
