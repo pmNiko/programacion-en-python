@@ -57,12 +57,12 @@ Punto 3:
 
    
    Ejecute el código. 
-    a- Cual es el print que se mustra por consola? 
+    a- Cual y porque es el print que se mustra por consola? 
     b- Ahora cambie el valor de "mi_variable" 
 
         mi_variable = 7
 
-    Cual es el print que se muestra por consola? Describa el resultado. 
+    Cual y porque es el print que se muestra por consola? Describa el resultado. 
     Puede hacer uso del debug.
 
 
@@ -99,7 +99,7 @@ Punto 5:
     areas que lo componen?
   b- Con que comando pasa los cambios realizados del "working directory" al "Staging area"
   c- Con que comando genera un commit?  
-  d- GitHub nos permite alojar los projectos en la nube. Una vez enlazado el proyecto local
+  d- GitHub nos permite alojar los projectos en la nube. Una vez enlazado el proyecto local con
     el repositorio remoto con que comando empujamos nuestros cambios?
   e- Si quisieramos traernos los cambios del repositorio remoto que comando usariamos?
 
@@ -119,7 +119,7 @@ Punto 6:
   Las funciones nos permiten modularizar bloques de codigo y aporta a la reutilización 
   del mismo. 
   a- Cree un modulo llamado: "punto_6.py" y dentro defina una función "resta" que reciba como 
-    parametro dos numeros y restorne el resultado de dicha operacion matematica. Documente dicha 
+    parametro dos numeros y retorne el resultado de dicha operacion matematica. Documente dicha 
     función para que explique brevemente cual es su objetivo. 
     Haga uso de la función que acaba de relizar asignando la devolución de la fn a una variable 
     resultado, y luego imprima dicha variable. 
@@ -248,5 +248,46 @@ Punto 10:
 
 
 
+
+___________________________________________________________________________________
+Punto 11:
+
+   Ejercicio Practico
+
+   a- Crear un programa en el cual el usuario tenga un menu en el cual pueda realizar 
+   las operaciones matematicas basicas (suma, resta, division, multiplicacion). 
+
+    Ejemplo: 
+
+            Menu
+        1- suma
+        2- resta
+        3- division
+        4- multiplicacion
+
+   b- Extender el ejercio anterior, modularizando en funciones cada bloque de codigo 
+      asociado a cada una de las opciones, definir dichas funciones en un archivo 
+      a parte e importalas para hacer uso de ellas. 
+
+   c- Extienda ahora el ejercicio agregando dos opciones al menu: 
+         Menu
+        1- suma
+        2- resta
+        3- division
+        4- multiplicacion
+        5- pares e impares 
+        6- acumulador
+
+      Descripcion: 
+        - pares e imppares: debe ingresar 10 numeros por consola e imprimir dos colecciones
+          la coleccion de pares y la coleccion de impares.
+        
+        - acumulador: ingrese 6 numeros por consola los cuales debe validar que sean mayor a 0, 
+          en el caso de que ingresara 0 o un numero negativo debera imprimir el siguiente mensaje:
+
+              "El numero ingresado es menor a 0 vuelva a intentarlo"
+
+    d- Extienda el ejercicio para que ahora la funcion division lance una excepcion en el caso que 
+       el divisor sea 0, luego maneje la excepcion donde este llamando dicha funcion.
 
 ___________________________________________________________________________________
