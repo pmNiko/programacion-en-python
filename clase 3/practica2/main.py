@@ -1,9 +1,11 @@
 """ importacion de modulos """
 # from funciones import suma
-import random
-from funciones import saludoUsuario
-from funciones import numeroAleatorio
-from funciones import opcionElegida
+
+from funciones import login, saludoUsuario, numeroAleatorio , opcionElegida 
+
+
+
+
 menu=   """ Menu
   1- Saludar usuario
   2- Mostrar un numero aleatorio
@@ -35,7 +37,7 @@ while True:
         pass
     
     elif opcion == 5: 
-        pass
+        login()
     
     elif opcion == 6: 
         pass
