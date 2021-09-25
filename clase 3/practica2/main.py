@@ -1,6 +1,9 @@
 """ importacion de modulos """
 # from funciones import suma
-  
+import random
+from funciones import saludoUsuario
+from funciones import numeroAleatorio
+from funciones import opcionElegida
 menu=   """ Menu
   1- Saludar usuario
   2- Mostrar un numero aleatorio
@@ -16,14 +19,17 @@ while True:
     opcion= int(input("ingrese una opcion: "))
     
     if opcion == 1: 
+        """ pedirle el nomre, saludarlo escribiendo el nombre ingresado, """
         # suma()
-        pass
+        nombre= input("ingrese su nombre: ")
+        
+        saludoUsuario(nombre)
     
     elif opcion == 2: 
-        pass
-    
+        # print(random.randint(0, 10))
+       numeroAleatorio()
     elif opcion == 3: 
-        pass
+        opcionElegida(opcion)
     
     elif opcion == 4: 
         pass
