@@ -6,3 +6,19 @@
 
   resultado = 10/0
 """
+
+
+while True:
+    dividendo = 10 
+    try: 
+      divisor = int(input("Ingrese el número divisor: "))
+      cociente = dividendo / divisor
+      print(cociente)
+      break
+    except ZeroDivisionError:
+        print("El valor 0 no es reconocible") 
+
+# try:
+#   resultado = 10/0
+# except ZeroDivisionError:
+#   print("No se puede dividir por 0.")
