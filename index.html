@@ -18,7 +18,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-    <title>POO</title>
+    <title>Programación en Python</title>
   </head>
 
   <!-- Cuerpo de la página -->
@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand navbar-light bg-primary">
       <div class="nav navbar-nav">
         <a class="navbar-brand" href="#"
-          >Programación orientada a objetos en
+          >Programación en
           <img
             src="https://www.python.org/static/img/python-logo.png"
             alt="python"
@@ -39,7 +39,7 @@
 
     <div class="row m-4">
       <!-- Preparación del entorno -->
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
         <div class="accordion" id="tema-1">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -62,17 +62,14 @@
               data-bs-parent="#tema-1"
             >
               <div class="accordion-body">
-                <b> Secuencia de importación de Python. </b><br />
-                La busqueda de paquetes se compone de la siguiente manera:
+                <b> Herramientas </b><br />
                 <br />
-                &nbsp 1- El directorio contenedor del modulo <br />
-                &nbsp 2- PYTHONPATH <br />
-                &nbsp 3- Libreria propias del core o instaladas <br />
+                &nbsp; 1- Linea de comandos <br />
+                &nbsp; 2- VSCode & plugins <br />
+                &nbsp; 3- Git Bash <br />
 
                 <br /><i
-                  >Para que nuestros modulos puedan ser accedidos e importados
-                  se le debe indicar al interpretre a través de un script vacio
-                  __init__.py dentro de cada paquete o subpaquete.
+                  >Para la preparación del entorno se debe exportar las variables de entorno según el sistema operativo.
                 </i>
               </div>
             </div>
@@ -81,8 +78,8 @@
       </div>
       <!-- Preparación del entorno -->
 
-      <!-- Paradigma POO-->
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+      <!-- Tipos de datos - estructuras y bucles-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
         <div class="accordion" id="tema-2">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -95,7 +92,7 @@
                 aria-controls="collapseOne-2"
               >
                 <span class="badge bg-info text-dark">Clase 1</span>
-                &nbsp<strong>Paradigma POO</strong>
+                &nbsp<strong>Lenguaje y herramientas</strong>
               </button>
             </h2>
             <div
@@ -106,23 +103,19 @@
             >
               <div class="accordion-body">
                 <b> Primer acercamiento. </b><br />
-                -> Que es y de que manera nos beneficia? <br />
-                -> Que es un objeto? <br />
-                -> Que es una clase? <br />
-                -> self <br /><br />
-
-                <strong>Primeros dos pilares: </strong><br />
-                &nbsp - Encapsulamiento. <br />
-                &nbsp - Abstracción.
+                👉🏻 Variables <br />
+                👉🏻 Tipos de datos <br />
+                👉🏻 Estructuras de control <br />
+                👉🏻 Bucles de iteración <br /><br />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Paradigma POO-->
+      <!-- Tipos de datos - estructuras y bucles-->
 
-      <!-- Testing-->
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+      <!-- Git & GitHub-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
         <div class="accordion" id="tema-3">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -134,8 +127,8 @@
                 aria-expanded="true"
                 aria-controls="collapseOne-3"
               >
-                <span class="badge bg-info text-dark">Clase 1</span>
-                &nbsp<strong>Testing</strong>
+                <span class="badge bg-info text-dark">Clase 2</span>
+                &nbsp<strong>Git & GitHub</strong>
               </button>
             </h2>
             <div
@@ -145,29 +138,25 @@
               data-bs-parent="#tema-3"
             >
               <div class="accordion-body">
-                <b> Suite de test </b><br />
-                Los test validan el comportamiento de nuestros objetos. Estos deben ser:
+                <b> Sistema de control de versiones </b><br />
+                Porque es importante tener control de las distintas versiones de nuestro proyecto.
                 <br />
-                &nbsp; -> Automaticos: al ejecutarse ya indican si obtuvieron el resultado esperado. <br />
-                &nbsp; -> Repetibles: Se deben poder ejecutar N veces dando el mismo resultado <br />
-                &nbsp; -> Independientes: No infiere el orden de ejecución. <br />
-                &nbsp; -> Bien pensados: deben cubrir los casos clave.<br />
-
-                <br /><i
-                  >Usaremos como marco de pruebas unittest. <br>
-                  &nbsp; 🧪 <a href="https://docs.python.org/3/library/unittest.html">unittest docs</a><br>
-                  &nbsp; 📚 <a href="https://ellibrodepython.com/python-testing">Python testing</a>
-                  
-                </i>
+                &nbsp; 👉🏻 Configuración de las variables de entorno local.<br />
+                &nbsp; 👉🏻 Configuración de la cuenta GitHub.<br />
+                &nbsp; 👉🏻 Comandos basicos de git<br />
+                &nbsp; 👉🏻 Comandos para comunicarnos con el repositorio remoto.<br />
+                &nbsp; 👉🏻 Pull Requests y trabajo en equipo.<br />
+                &nbsp; 👉🏻 Operar a través de la facilidad de VSCode.<br />                
+                &nbsp; 👉🏻 Servir un recurso con Python.<br />                
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Testing-->
+      <!-- Git & GitHub-->
 
-      <!-- Nivel de acceso y constructores-->
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+      <!-- Staff-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
         <div class="accordion" id="tema-4">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -179,40 +168,178 @@
                 aria-expanded="true"
                 aria-controls="collapseOne-4"
               >
-                <span class="badge bg-info text-dark">Clase 1</span>
-                &nbsp<strong>Nivel de acceso y constructores</strong>
+                <span class="badge bg-info text-dark">Clase 3</span>
+                &nbsp<strong>Conocimiento a prueba</strong>
               </button>
             </h2>
             <div
               id="collapseOne-4"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               aria-labelledby="headingOne"
               data-bs-parent="#tema-4"
             >
               <div class="accordion-body">
-                <b> Propiedades y metodos </b><br />
-                Nivel de acceso:
-                <br />
-                &nbsp; 👉🏻 public: son de publico acceso. <br />
-                &nbsp; 👉🏻 protected: puden ser accedidos por la clase y su descendencia. <br />
-                &nbsp; 👉🏻 private: solo pueden ser accedidos por la clase contenedora.  <br /><br>
+                <b> Trabajando en equipo </b><br />
 
                 <strong>Constructores</strong><br>
-                &nbsp; ✅ Mensajes de clase para la construcción de objetos bien formados. <br />
-                &nbsp; ✅ Permiten tomar los colaboradores basicos para el nuevo objeto. <br />
-                &nbsp; ✅ Un objeto bien formado se encuentra en estado consciente desde su creación. <br />
-                &nbsp; ✅ En Python se define a través del metodo __init__ <br />
+                &nbsp; ✅ Simulando un switch para crear un menu de usuario. <br />
+                &nbsp; ✅ Secuencia de importación en Python. <br />
+                &nbsp; ✅ Definición de funciones. <br />
+                &nbsp; ✅ Práctica en equipo. <br />
 
                 <br /><i
-                  >Overloading: la sobrecarga de operadores nos permite redefinir comparaciones y operaciones entre
-                  objetos.
+                  >__Trabajo en equipo como herramienta de mano.
                 </i>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Nivel de acceso y constructores-->
+      <!-- Staff-->
+
+      <!-- Funciones-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+        <div class="accordion" id="tema-5">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-5"
+                aria-expanded="true"
+                aria-controls="collapseOne-5"
+              >
+                <span class="badge bg-info text-dark">Clase 4</span>
+                &nbsp<strong>Funciones</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-5"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-5"
+            >
+              <div class="accordion-body">
+                <b> Trabajando con funciones </b><br /><br>
+                &nbsp; ✅ Operadores aritméticos y de asignación. <br />
+                &nbsp; ✅ Funciones anónimas o lambda. <br />
+                &nbsp; ✅ Funciones de orden superior. <br />
+                &nbsp; ✅ Documentación de funciones. <br />
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Funciones-->
+
+      <!-- Control de ejecución-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+        <div class="accordion" id="tema-6">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-6"
+                aria-expanded="true"
+                aria-controls="collapseOne-6"
+              >
+                <span class="badge bg-info text-dark">Clase 5</span>
+                &nbsp<strong>Control de ejecución</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-6"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-6"
+            >
+              <div class="accordion-body">
+                <b> Control sobre el flujo de ejecución </b><br /><br>
+                &nbsp; ✅ Loader - if __name__ == '__main__'. <br />
+                &nbsp; ✅ Return vs yield. <br />
+                &nbsp; ✅ Errores & excepciones. <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Control de ejecución-->
+
+      <!-- Decoradores-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+        <div class="accordion" id="tema-7">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-7"
+                aria-expanded="true"
+                aria-controls="collapseOne-7"
+              >
+                <span class="badge bg-info text-dark">Clase 6</span>
+                &nbsp<strong>Decoradores</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-7"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-7"
+            >
+              <div class="accordion-body">
+                <b> Que son y para que sirven </b><br /><br>
+                &nbsp; ✅ Concepto. <br />
+                &nbsp; ✅ Construcción paso a paso. <br />
+                &nbsp; ✅ Utilización de decoradores. <br />
+                &nbsp; ✅ Ejercitación. <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Decoradores-->
+
+      <!-- Test de conocimiento-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-4">
+        <div class="accordion" id="tema-8">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-8"
+                aria-expanded="true"
+                aria-controls="collapseOne-8"
+              >
+                <span class="badge bg-info text-dark">Final</span>
+                &nbsp<strong>Test de conocimiento</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-8"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-8"
+            >
+              <div class="accordion-body">
+                <b> Test a modo de evaluación </b><br /><br>
+                &nbsp; ✅ Pone a prueba los conocimientos adquiridos. <br />
+                &nbsp; ✅ Gran parte es teórica. <br />
+                &nbsp; ✅ Ejercicio practico final que envuelve todos los conceptos. <br />
+                &nbsp; ✅ Se agradece a todos los que formaron parte. <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Test de conocimiento-->
 
     </div>
 
@@ -225,7 +352,7 @@
           aria-valuenow="75"
           aria-valuemin="0"
           aria-valuemax="100"
-          style="width: 10%"
+          style="width: 90%"
         >
           Progreso del curso ...
         </div>
