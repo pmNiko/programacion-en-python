@@ -1,12 +1,12 @@
 
-<p align="center"><a href="#"
+<p align="center"><a href="https://pmniko.github.io/programacion-en-python/"
           >
           <img
             src="https://www.python.org/static/img/python-logo.png"
             alt="python"
         /></a></p>
 
-## Programación en Python
+## Programación en Python - <a href="https://pmniko.github.io/programacion-en-python/"> page.io</a>
 
 #### Contenido: 
 <ul>
@@ -42,5 +42,5 @@
 
 
 <br> <strong>Colaboración:</strong>
-> Raul Videla:    [Perfil de GitHub](https://github.com/RaulVidela)
+> Raul Videla:    [Perfil de GitHub](https://github.com/RaulVidela)<br>
 > Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato)
