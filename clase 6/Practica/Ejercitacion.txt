@@ -1,0 +1,96 @@
+"""
+      Ejercitación con decoradores
+                                    """
+
+
+"""
+  Ejercicio 1:
+    Crear un archivo llamado funcion_usuario.py
+    Generar una función login que capture nombre y apellido de un usuario por consola
+    y devuelva un mensaje por consola dando la bienvenida a dicho usuario, haciendo 
+    de fstring y colorama imprimir el mensaje en color verde.
+"""
+
+______________________________________________    _________________________________
+
+
+"""
+  Ejercicio 2:
+    Crear un modulo llamado decoradores.py
+    Definir un decorador llamado: @logueado
+    dicho decorador debe mostrar fecha y hora cuando el usuario esta intentando loguearse, haciendo uso 
+    del modulo datetime capture la fecha y hora muestrela por consola antes de ejecutar 
+    la función que recibe como parametro, luego de ejecutar la función decorada debe 
+    imprimir un mensaje por consola que diga gracias por ingresar. 
+    Por ultimo en el archivo de funcion_usuario.py importe el decorador y apliquelo a
+    la definición de dicha función para comprobar su correcto funcionamiento.
+"""
+______________________________________________    _________________________________
+
+
+"""
+  Ejercicio 3:
+    Crear un modulo llamado login_user.py
+    Vamos a redefinir la funcion login que creamos en el modulo funcion_usuario.py
+    para que ahora reciba como parametro nombre y apellido, realizando la misma salida
+    por consola que hacia anteriormente(por ahora sin decorador).
+    Una vez que tengamos funcionando nuestra funcion correctamente, en el modulo decoradores.py
+    definir un nuevo decorador llamado "logueado_2" que nos permita recibir una función con parametros.
+    Una vez hecha la definicion de nuestro nuevo decorador capaz de soportar fn con parametros importarlo
+    en el modulo login_user.py y decorar la funcion para comprobar su funcionamiento. 
+
+"""
+
+______________________________________________    _________________________________
+
+
+"""
+    Ejercicio 4:
+    Crear un modulo llamado verduleria.py
+    - Definir una variable frutas y asignarle una lista de frutas: 
+          -Naranja  -Kiwi  -Frutilla  -Banana  -Manzana 
+
+    - Definir una función agregarFruta(una_fruta, lista_de_frutas) que tome una fruta como parametro 
+      y la agregue a la lista. 
+
+    - Genenrar una excepción ValueError() con un msg indicando el error, para
+      contener el caso de que la fruta que esta intentando agregar ya exista en la colección.
+
+    - Probar su funcionamiento manejando la excepción y finalmente imprimiendo el listado de frutas.
+
+      agregarFruta('pera', frutas)
+      agregarFruta('manzana', frutas)
+
+
+"""
+
+______________________________________________    _________________________________
+
+"""
+    Ejercicio 5:
+    Dentro del modulo decoradores.py definir un nuevo decorador llamado @connect
+    el cual debe imprimir un mensaje: 
+            "Conección a base de datos activa..."
+    antes de ejecutar la fn decorada y un mensaje: 
+            "Conección a la base de datos cerrada."
+    luego de ejecutar la fn decorada.
+
+    Importar el decorador en el modulo verduleria y decorar la funcion agregarFruta()
+
+
+"""
+______________________________________________    _________________________________
+
+
+"""
+    Ejercicio 6:
+    Dentro del modulo decoradores.py definir un nuevo decorador llamado @connect_2(autorized=False)
+    el cual extendera la funcionalidad del decorador connect para que en el caso de recibir autorized=True
+    ejecutará la funcionalidad anterior, pero en caso contrario lanzará una excepción ValueError con 
+    un msg indicando que no tiene permiso para realizar la acción que esta intentando efectuar.
+    
+    Por ultimo importarla en el modulo verduleria, quitar @connect y decorar la fn agregarFruta() 
+    con @connect_2(), y luego pasarle autorized=True como parametro para ver su funcionamiento.
+
+
+"""
