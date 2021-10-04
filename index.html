@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <title>POO</title>
+  </head>
+
+  <!-- Cuerpo de la página -->
+  <body>
+    <!-- Navbar de la página -->
+    <nav class="navbar navbar-expand navbar-light bg-primary">
+      <div class="nav navbar-nav">
+        <a class="navbar-brand" href="#"
+          >Programación orientada a objetos en
+          <img
+            src="https://www.python.org/static/img/python-logo.png"
+            alt="python"
+        /></a>
+      </div>
+    </nav>
+
+    <!-- Columna izquierda de contenidos -->
+
+    <div class="row m-4">
+      <!-- Preparación del entorno -->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+        <div class="accordion" id="tema-1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-1"
+                aria-expanded="true"
+                aria-controls="collapseOne-1"
+              >
+                <span class="badge bg-info text-dark">Introducción</span>
+                &nbsp<strong>Preparación del entorno</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-1"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-1"
+            >
+              <div class="accordion-body">
+                <b> Secuencia de importación de Python. </b><br />
+                La busqueda de paquetes se compone de la siguiente manera:
+                <br />
+                &nbsp 1- El directorio contenedor del modulo <br />
+                &nbsp 2- PYTHONPATH <br />
+                &nbsp 3- Libreria propias del core o instaladas <br />
+
+                <br /><i
+                  >Para que nuestros modulos puedan ser accedidos e importados
+                  se le debe indicar al interpretre a través de un script vacio
+                  __init__.py dentro de cada paquete o subpaquete.
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Preparación del entorno -->
+
+      <!-- Paradigma POO-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+        <div class="accordion" id="tema-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-2"
+                aria-expanded="true"
+                aria-controls="collapseOne-2"
+              >
+                <span class="badge bg-info text-dark">Clase 1</span>
+                &nbsp<strong>Paradigma POO</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-2"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <b> Primer acercamiento. </b><br />
+                -> Que es y de que manera nos beneficia? <br />
+                -> Que es un objeto? <br />
+                -> Que es una clase? <br />
+                -> self <br /><br />
+
+                <strong>Primeros dos pilares: </strong><br />
+                &nbsp - Encapsulamiento. <br />
+                &nbsp - Abstracción.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Paradigma POO-->
+
+      <!-- Testing-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+        <div class="accordion" id="tema-3">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-3"
+                aria-expanded="true"
+                aria-controls="collapseOne-3"
+              >
+                <span class="badge bg-info text-dark">Clase 1</span>
+                &nbsp<strong>Testing</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-3"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-3"
+            >
+              <div class="accordion-body">
+                <b> Suite de test </b><br />
+                Los test validan el comportamiento de nuestros objetos. Estos deben ser:
+                <br />
+                &nbsp; -> Automaticos: al ejecutarse ya indican si obtuvieron el resultado esperado. <br />
+                &nbsp; -> Repetibles: Se deben poder ejecutar N veces dando el mismo resultado <br />
+                &nbsp; -> Independientes: No infiere el orden de ejecución. <br />
+                &nbsp; -> Bien pensados: deben cubrir los casos clave.<br />
+
+                <br /><i
+                  >Usaremos como marco de pruebas unittest. <br>
+                  &nbsp; 🧪 <a href="https://docs.python.org/3/library/unittest.html">unittest docs</a><br>
+                  &nbsp; 📚 <a href="https://ellibrodepython.com/python-testing">Python testing</a>
+                  
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Testing-->
+
+      <!-- Nivel de acceso y constructores-->
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+        <div class="accordion" id="tema-4">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne-4"
+                aria-expanded="true"
+                aria-controls="collapseOne-4"
+              >
+                <span class="badge bg-info text-dark">Clase 1</span>
+                &nbsp<strong>Nivel de acceso y constructores</strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne-4"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#tema-4"
+            >
+              <div class="accordion-body">
+                <b> Propiedades y metodos </b><br />
+                Nivel de acceso:
+                <br />
+                &nbsp; 👉🏻 public: son de publico acceso. <br />
+                &nbsp; 👉🏻 protected: puden ser accedidos por la clase y su descendencia. <br />
+                &nbsp; 👉🏻 private: solo pueden ser accedidos por la clase contenedora.  <br /><br>
+
+                <strong>Constructores</strong><br>
+                &nbsp; ✅ Mensajes de clase para la construcción de objetos bien formados. <br />
+                &nbsp; ✅ Permiten tomar los colaboradores basicos para el nuevo objeto. <br />
+                &nbsp; ✅ Un objeto bien formado se encuentra en estado consciente desde su creación. <br />
+                &nbsp; ✅ En Python se define a través del metodo __init__ <br />
+
+                <br /><i
+                  >Overloading: la sobrecarga de operadores nos permite redefinir comparaciones y operaciones entre
+                  objetos.
+                </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Nivel de acceso y constructores-->
+
+    </div>
+
+    <!-- Footer con barra de progreso  -->
+    <footer>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped progress-bar-animated"
+          role="progressbar"
+          aria-valuenow="75"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="width: 10%"
+        >
+          Progreso del curso ...
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
