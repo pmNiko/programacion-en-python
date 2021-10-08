@@ -1,0 +1,36 @@
+body {
+  background-color: rgba(12, 91, 238, 0.3) !important ;
+}
+
+nav.navbar.navbar-expand {
+  justify-content: center !important;
+}
+
+a.navbar-brand {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  color: white !important;
+}
+
+img {
+  width: 130px !important;
+  height: 30px !important;
+}
+
+.accordion-button {
+  font-size: 16px;
+}
+
+.accordion-body {
+  margin-top: 10px !important;
+  font-size: 12px;
+} 
+
+
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 3%;
+  background-color: cornflowerblue;
+}
