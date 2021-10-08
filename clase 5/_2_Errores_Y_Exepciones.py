@@ -9,13 +9,6 @@ conociendo un nuevo lenguaje."""
 
 """ Errores semanticos: estos se dan cuando a pesar de terner 
 una sintaxis correcta el programa no tiene un resultado esperado"""
-# numeros = [1, 2, 3, 4, 0]
-# numeros_pares = list(filter(lambda x: x % 2 == 0, numeros))
-# print(numeros_pares)
-# Por consola podemos ver que ha tomado entre los numeros pares al 0
-# Podemos mejorar nuestra condicion
-# numeros_pares = list(filter(lambda x: x % 2 == 0 and x != 0, numeros))
-# print(numeros_pares)
 
 
 """ Errores de ejecucion, estos aparecen en runtime y pueden producir 

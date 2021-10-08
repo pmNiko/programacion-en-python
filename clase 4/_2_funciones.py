@@ -59,7 +59,7 @@ def cuadradoDeUnNumero(numero):
 
 
 # def numeroPares(numero):
-#     return numero % 2 == 0 and numero != 0
+#     return numero % 2 == 0
 
 
 # numeros_pares = list(filter(numeroPares, valores))
