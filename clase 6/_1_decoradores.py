@@ -1,5 +1,5 @@
 # Definicion de nuestro decorador
-def decorador_custom(func) -> function:
+def decorador_custom(func):
     """ Decorador devuelve una nueva función. """
     def nuevaFuncion():
         print("Vamos a ejecutar la función.")
