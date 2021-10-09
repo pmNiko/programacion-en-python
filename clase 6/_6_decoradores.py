@@ -1,12 +1,12 @@
 def uppercase(f):
-    """ Dada una función f que devuelve un string lo pasa todo a mayúsculas """
+    """ Dada una función f que devuelve un string, lo pasa todo a mayúsculas """
     def wrapper():
         return f().upper()
     return wrapper
 
 
 def make_bold(f):
-    """ Dada una función f que devuelve un string le añade los tags de bold """
+    """ Dada una función f que devuelve un string, le añade los tags de bold """
     def wrapper():
         return '\033[1m' + f()
     return wrapper

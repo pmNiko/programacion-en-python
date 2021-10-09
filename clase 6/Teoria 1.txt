@@ -2,7 +2,7 @@
     Que son los decoradores en Python
                                       """
 
-Un decorador es un patron de software quw se utiliza para alterar el 
+Un decorador es un patron de software que se utiliza para alterar el 
 funcionamiento de una determinada pieza de codigo, ya sea una función 
 o una clase sin la necesidad de emplear otros mecanismos como la herencia.
 
@@ -56,7 +56,7 @@ ______________________________________________________________________________
 
 ______________________________________________________________________________
 
-  Ahora veamos el caso en el que nuestra función a decorar deba recibir parametros,
+  Ahora veamos el caso en el que nuestra función a decorar deba recibir parametros.
   Bien para esto vamos a hacer uso de nuestros parametros *args y **kwargs
 
   veamos el escenario en el script: _2_decoradores.py

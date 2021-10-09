@@ -17,7 +17,7 @@ def saluda():
 
 @decorador_custom  # <= aplicamos el decorador
 def suma():
-    """ Suma dos numeros e imoprime el reesultado. """
+    """ Suma dos numeros e imprime el reesultado. """
     n1 = 10
     n2 = 20
     suma = n1 + n2
@@ -26,4 +26,4 @@ def suma():
 
 if __name__ == '__main__':
     saluda()
-    suma()
+    # suma()

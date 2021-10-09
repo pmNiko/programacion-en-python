@@ -14,6 +14,7 @@ def calcular_tiempo(function):
 
 
 if __name__ == '__main__':
+
     @calcular_tiempo
     def suma(numero_1, numero_2):
         time.sleep(3)

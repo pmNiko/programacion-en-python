@@ -1,13 +1,13 @@
 """                                                                               """
 
    Para realizar la actividad deberá crear un repositorio propio llamado 
-   "nombre-apellido-test" y enviar el link via email para ser evaluado.
+   "nombre-apellido-test" y enviar el link al grupo de WathsApp para ser evaluado.
    Genere un commit por punto y pushee el commit a main.
 
 """                                                                               """
 
 Punto 1: 
-  a- A traves de que extension de archivo se genera un script de python. Ejemplifique.
+  a- A través de que extension de archivo se genera un script de python. Ejemplifique.
   b- Definir con sus palabras que es una variable?
 
 
@@ -27,7 +27,7 @@ Punto 2:
 ___________________________________________________________________________________
 
 Punto 3:
-  Las estructuras selectivas nos permiten tomar desiciones logicas, es decir se evalua 
+  Las estructuras selectivas nos permiten tomar desiciones logicas, es decir, se evalua 
   una condición y en función del resultado se realizarán una determinada serie de instruciones.
   Se puede hacer uso de las palabra reservadas: 
     1ra. "if" 
@@ -79,6 +79,7 @@ Punto 4:
   Con sus palabra responda:
     a- Cuando corta la iteración un bucle "for" ?
     b- Cuando termina de iterar un bucle "while" ?
+
   Cree un script llamado: "punto_4.py" 
     c- Genere un ejemplo del bucle "for" en el cual recorra los elementos de una lista 
         y los imprima por consola.
@@ -254,7 +255,7 @@ Punto 11:
 
    Ejercicio Practico
 
-   a- Crear un programa en el cual el usuario tenga un menu en el cual pueda realizar 
+   a- Crear un programa en el cual el usuario tenga un menu que pueda realizar 
    las operaciones matematicas basicas (suma, resta, division, multiplicacion). 
 
     Ejemplo: 
@@ -279,7 +280,7 @@ Punto 11:
         6- acumulador
 
       Descripcion: 
-        - pares e imppares: debe ingresar 10 numeros por consola e imprimir dos colecciones
+        - pares e impares: debe ingresar 10 numeros por consola e imprimir dos colecciones
           la coleccion de pares y la coleccion de impares.
         
         - acumulador: ingrese 6 numeros por consola los cuales debe validar que sean mayor a 0, 

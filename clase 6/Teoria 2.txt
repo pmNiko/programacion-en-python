@@ -23,7 +23,7 @@ Veamos un ejemplo mas en el que un decorador recibe un argumento.
 ver el script: _5_decoradores.py
 
 En este caso podemos ver como el argumento que recibe como param el decorador 
-afecta el flujo de ejecución del mismo.
+afecta el flujo de ejecución.
 
 
 ___________________________________________________________________
