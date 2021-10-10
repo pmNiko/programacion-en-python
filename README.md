@@ -41,6 +41,10 @@
 </ul>
 
 
-<br> <strong>Colaboración:</strong>
+<br> <strong>Colaboradores del curso:</strong>
 > Raul Videla:    [Perfil de GitHub](https://github.com/RaulVidela)<br>
-> Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato)
+> Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato) <br><br>
+
+<br> <strong>Colaboradores del repositorio:</strong>
+> Nacho Bucchi:    [Perfil de GitHub](https://github.com/NachoBokita)<br>
+> Tomas Alfonso:    [Perfil de GitHub](https://github.com/Gretuwtf)
