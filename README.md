@@ -36,6 +36,7 @@
             <li>Return vs yield</li>
             <li>Excepciones</li>
             <li>Decoradores</li>
+            <li>Debug e inspector</li>
         </ol>
 
 </ul>
@@ -46,5 +47,6 @@
 > Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato) <br><br>
 
 <br> <strong>Colaboradores del repositorio:</strong>
+> Juan Macchiarulo: [Perfil de GitHub](https://github.com/erenyt12)<br>
 > Nacho Bucchi:    [Perfil de GitHub](https://github.com/NachoBokita)<br>
 > Tomas Alfonso:    [Perfil de GitHub](https://github.com/Gretuwtf)
