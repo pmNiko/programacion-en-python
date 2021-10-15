@@ -43,8 +43,8 @@
 
 
 <br> <strong>Colaboradores del curso:</strong>
-> Raul Videla:    [Perfil de GitHub](https://github.com/RaulVidela)<br>
-> Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato) <br><br>
+> Raul Videla:    [RaulVidela](https://github.com/RaulVidela)<br>
+> Ezequiel Salomon:  [ezequielpato](https://github.com/ezequielpato) <br><br>
 
 <br> <strong>Colaboradores del repositorio:</strong>
 > Jazmin Donofrio: [JazDonofrio](https://github.com/JazDonofrio)<br>
