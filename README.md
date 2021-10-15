@@ -47,6 +47,11 @@
 > Ezequiel Salomon:    [Perfil de GitHub](https://github.com/ezequielpato) <br><br>
 
 <br> <strong>Colaboradores del repositorio:</strong>
-> Juan Macchiarulo: [Perfil de GitHub](https://github.com/erenyt12)<br>
-> Nacho Bucchi:    [Perfil de GitHub](https://github.com/NachoBokita)<br>
-> Tomas Alfonso:    [Perfil de GitHub](https://github.com/Gretuwtf)
+> Jazmin Donofrio: [JazDonofrio](https://github.com/JazDonofrio)<br>
+> Joaquin Rivas: [JoaquinRi](https://github.com/JoaquinRi)<br>
+> Tamar Hernandez: [Tamii-h](https://github.com/Tamii-h)<br>
+> Samira Cordoba: [sami3000](https://github.com/sami3000)<br>
+> Juan Macchiarulo: [erenyt12](https://github.com/erenyt12)<br>
+> Axel Hobrecht:    [Arabath](https://github.com/Arabath)<br>
+> Nacho Bucchi:    [NachoBokita](https://github.com/NachoBokita)<br>
+> Tomas Alfonso:    [Gretuwtf](https://github.com/Gretuwtf)
